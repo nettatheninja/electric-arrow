@@ -29,7 +29,8 @@
 	<!-- JS
   ================================================== -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script type="text/javascript" src="pagination.js"></script>
+	<script type="text/javascript" src="js/pagination.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 
 	<!-- Favicons
 	================================================== -->
@@ -50,11 +51,15 @@
 		✌ Electric Arrow — Creative advice to our younger selves.<br>
 		<span id="question">Q: What advice would you give your younger self as you were just starting out?</span>
 	</div>
-	<div id"advice">
-		<p>Trust in your abilities, and don’t be afraid of never starting something because you don’t feel good enough.
+	<div id="advice">
+		<p>You're a beginner; keep that mindset even when it's mastered.</p>
+		<p>Jump off the cliff, your best lessons are at the bottom.</p>
+		<p>Your design is bad, you're not a bad designer (or person).</p>
+		<p>Find a mentor and don't be afraid to ask for help.</p>
+		<p>Learn the fundamentals of your craft first. You can't paint a house without a frame.</p>
 	</div>
 	<div id="credit">
-		— <a href="#">Justin Severson</a>, Writer
+		— <a href="#">Justin Severson</a>, <span>Writer</span>
 	</div>
 	
 
@@ -93,16 +98,35 @@ var css = new Array(
 );
 rand = getRand();
 document.write(css[rand]);
-</script>->
+</script>-->
 
-
-<!-- PAGINATION
+<!-- PAGINATION + NAVIGATION
 ================================================== -->
 <script type="text/javascript">
 	keyboardPagination( '.pagination', {
 		prev: '.pagination-prev',
 		next: '.pagination-next'
 	});
+
+	var href = window.location.href;
+	var name = href.substr(href.lastIndexOf('/') + 1);
+	var author = window.nm.quotes[name];
+	if (author) {
+		var quotesEl = document.querySelectorAll('#advice')[0];
+		quotesEl.innerHTML = '';
+		for (var i = 0; i < author.quote.length; i++) {
+			var quoteEl = document.createElement('p');
+			quoteEl.appendChild(document.createTextNode(author.quote[i]));
+			quotesEl.appendChild(quoteEl);
+		};
+
+		var creditLinkEl = document.querySelectorAll('#credit a')[0];
+		creditLinkEl.href = author.link;
+		creditLinkEl.innerText = author.name;
+
+		var creditProfEl = document.querySelectorAll('#credit span')[0];
+		creditProfEl.innerText = author.title
+	}
 </script>
 
 

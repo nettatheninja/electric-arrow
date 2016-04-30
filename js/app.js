@@ -1,5 +1,6 @@
-(function() {
-	quotes = {
+//(function() {
+	window.nm = {}
+	window.nm.quotes = {
 		"ash-ponders": {
 			"name": "Ash Ponders",
 			"title": "Photographer",
@@ -270,4 +271,7 @@
 			]
 		},
 	};
-})();
+
+	
+	
+//})();

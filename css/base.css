@@ -7,7 +7,7 @@ html, body {
     padding: 0;
 }
 
-@font-face{font-family: "FedraSerifA-Book";src: url(/FedraSerifA-Book.otf);}
+@font-face{font-family: "FedraSerifA-Book";src: url(/font/FedraSerifA-Book.otf);}
 
 body {
 	font-family: "FedraSerifA-Book";
