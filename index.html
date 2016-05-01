@@ -49,28 +49,30 @@
 	<div id="container">
 		<div id="column-left">
 			<ul>
-				<li class="pagination-prev"><a href="" rel="prev" title="Previous page" aria-label="Previous page">←</a></li>
+				<li id="pagination-prev"><a href="" rel="prev" title="Previous page" aria-label="Previous page">←</a></li>
 			</ul>
 		</div>
 		<div id="column-center">
-			<div id="desc">
-				✌ Electric Arrow <br>
-				<span id="question">Q: What advice would you give your younger self as you were just starting out?</span>
+			<div id="nav">
+				<div id="desc">
+					<a href="/">Electric Arrow</a>
+				</div>
+				<div id="links">
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Archives</a></li>
+					</ul>
+				</div>
 			</div>
-			<div id="advice">
-				<p>You're a beginner; keep that mindset even when it's mastered.</p>
-				<p>Jump off the cliff, your best lessons are at the bottom.</p>
-				<p>Your design is bad, you're not a bad designer (or person).</p>
-				<p>Find a mentor and don't be afraid to ask for help.</p>
-				<p>Learn the fundamentals of your craft first. You can't paint a house without a frame.</p>
-			</div>
+			<div id="question">Q: What advice would you give your younger self as you were just starting out?</div>
+			<div id="advice"></div>
 			<div id="credit">
-				— <a href="#">Justin Severson</a>, <span>Writer</span>
+				— <a href="#" target="_blank"></a>, <span></span>
 			</div>
 		</div>
 		<div id="column-right">
 			<ul>
-				<li class="pagination-next"><a href="" rel="next" title="Next page" aria-label="Next page">→</a></li>
+				<li id="pagination-next"><a href="" rel="next" title="Next page" aria-label="Next page">→</a></li>
 			</ul>
 		</div>
 	</div>
@@ -110,30 +112,38 @@ document.write(css[rand]);
 <!-- PAGINATION + NAVIGATION
 ================================================== -->
 <script type="text/javascript">
-	keyboardPagination( '.pagination', {
-		prev: '.pagination-prev',
-		next: '.pagination-next'
+	keyboardPagination( '#container', {
+		prev: '#pagination-prev',
+		next: '#pagination-next'
 	});
-
 	var href = window.location.href;
 	var name = href.substr(href.lastIndexOf('/') + 1);
+	var authors = window.nm.authors//.reverse();
 	var author = window.nm.quotes[name];
-	if (author) {
-		var quotesEl = document.querySelectorAll('#advice')[0];
-		quotesEl.innerHTML = '';
-		for (var i = 0; i < author.quote.length; i++) {
-			var quoteEl = document.createElement('p');
-			quoteEl.appendChild(document.createTextNode(author.quote[i]));
-			quotesEl.appendChild(quoteEl);
-		};
-
-		var creditLinkEl = document.querySelectorAll('#credit a')[0];
-		creditLinkEl.href = author.link;
-		creditLinkEl.innerText = author.name;
-
-		var creditProfEl = document.querySelectorAll('#credit span')[0];
-		creditProfEl.innerText = author.title
+	if (!author || name.length == 0) {
+		author = window.nm.quotes[authors[0]];
 	}
+
+	var quotesEl = document.querySelectorAll('#advice')[0];
+	quotesEl.innerHTML = '';
+	for (var i = 0; i < author.quote.length; i++) {
+		var quoteEl = document.createElement('p');
+		quoteEl.appendChild(document.createTextNode(author.quote[i]));
+		quotesEl.appendChild(quoteEl);
+	};
+
+	var creditLinkEl = document.querySelectorAll('#credit a')[0];
+	creditLinkEl.href = author.link;
+	creditLinkEl.innerText = author.name;
+
+	var creditProfEl = document.querySelectorAll('#credit span')[0];
+	creditProfEl.innerText = author.title;
+
+	var current = name.length ? authors.indexOf(name) : 0;
+	var prevAuthor = authors[(current + authors.length - 1) % authors.length];
+	document.querySelectorAll('#pagination-prev a')[0].href = '/' + prevAuthor;
+	var nextAuthor = authors[(current + authors.length + 1) % authors.length];
+	document.querySelectorAll('#pagination-next a')[0].href = '/' + nextAuthor;
 </script>
 
 

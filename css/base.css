@@ -11,7 +11,7 @@ html, body {
 
 body {
 	font-family: "FedraSerifA-Book";
-	color: #444;
+	color: #007ba7;
 	text-align: left;
 	-webkit-font-smoothing: antialiased;
 	font-weight: normal;
@@ -25,13 +25,46 @@ body {
 	padding: 110px 0;
 }
 
+#nav{
+	margin-bottom: 145px;
+	display: flex;
+}
+
 #desc{
-	font-size: 1.1em;
-	margin-bottom: 150px;
+	font-size: 1em;
+	width: 50%;
+	color: #8CA0A7;
+}
+
+#links{
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+#links ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+#links ul li a{
+	border-bottom: 2px solid rgba(153, 153, 153, .5);
+	margin-left:30px;
+	color: #8CA0A7;
+	font-size: .8em;
+}
+
+#links ul li a:hover{
+	color: #f00;
+    opacity: .7;
+}
+
+#question{
+	padding: 0 0 15px;
 }
 
 #question, #credit{
-	color: #999;
+	color: #8CA0A7;
 }
 
 p{
@@ -61,7 +94,7 @@ a, a:visited{
 #credit a{
 	margin: 0;
 	padding: 0;
-	border-bottom: 2px solid rgba(153, 153, 153, .7);
+	border-bottom: 2px solid rgba(153, 153, 153, .5);
 	display: inline-block;
 	line-height: 20px;
 }
@@ -79,12 +112,13 @@ a, a:visited{
 	margin: 0 auto;
 }
 
- ul {
+ #column-left ul li, #column-right ul li {
 	list-style-type: none;
 	padding: 0;
 	left: 50%;
 	position: relative;
 	top: 215px;
+	width: 50%;
 }
 li{
 	color: #ccc;
