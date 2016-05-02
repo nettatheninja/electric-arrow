@@ -1,6 +1,31 @@
 //(function() {
 	window.nm = {}
 	window.nm.authors = [
+		"tristen-grant",
+		"alice-yang",
+		"leanna-c",
+		"laura-helen-winn",
+		"chevy-ray",
+		"jess-lim",
+		"syd-weiler",
+		"grant-heinlein",
+		"cyrus-henderson",
+		"jason-shen",
+		"matthew-bergman",
+		"josh-hemsley",
+		"cat-noone",
+		"melissa-mandelbaum",
+		"smb",
+		"racine-davis",
+		"manik-rathee",
+		"elizabeth-u",
+		"robin-andersen",
+		"anthony-bosio",
+		"jenna-quindica",
+		"chris-tauziet",
+		"sara-menefee",
+		"katrina-keller",
+		"cal",
 		"cordelia-mcgee-tubb",
 		"paul-tuorto",
 		"aubrey-johnson",
@@ -21,7 +46,7 @@
 		"adam-howard",
 		"ryan-spilken",
 		"alycia",
-		"shahkashani",
+		"shah-kashani",
 		"daniel-waldron",
 		"jason-roache",
 		"caroline-moore",
@@ -58,14 +83,206 @@
 
 	];
 	window.nm.quotes = {
-		// "": {
-		// 	"name": "",
-		// 	"title": "",
-		// 	"link": "",
-		// 	"quote": [
-		// 		"", ""
-		// 	]
-		// },
+		"tristen-grant": {
+			"name": "Tristen Grant",
+			"title": "Illustrator",
+			"link": "http://tristengrant.com",
+			"quote": [
+				"Don't expect things to happen quickly. It takes time. Keep going, don't give up."
+			]
+		},
+		"alice-yang": {
+			"name": "Alice Yang",
+			"title": "Illustrator & Designer",
+			"link": "http://alice-yang.com",
+			"quote": [
+				"Take advice from mom with a grain of salt. It may come from a place of love but don't let that stop you from pursuing your passion!", "Personal growth manifests differently between people, stop comparing! Use your past self as a baseline, and keep pushing forward 💪", "Don't wait for inspiration to create. Inspiration is fleeting. Perseverance and consistent practice is how you get better."
+			]
+		},
+		"leanna-c": {
+			"name": "Leanna C",
+			"title": "Illustrator",
+			"link": "http://frenchpressplease.tumblr.com",
+			"quote": [
+				"Don't stop or give up! Keep trying and use repetition to get better. Listen to others, but respect your own ideas too."
+			]
+		},
+		"laura-helen-winn": {
+			"name": "Laura Helen Winn",
+			"title": "Designer",
+			"link": "http://www.laurahelenwinn.com",
+			"quote": [
+				"Think of yourself less and your team more. Ask yourself every day: “How can I be helpful?” Learn to work in a team: it's not all about you!"
+			]
+		},
+		"chevy-ray": {
+			"name": "Chevy Ray",
+			"title": "Game Developer",
+			"link": "http://ikenfell.com",
+			"quote": [
+				"Go to the doctor and get medication for your mental illness, the next 10 years will be 1,000x better."
+			]
+		},
+		"jess-lim": {
+			"name": "Jess Lim",
+			"title": "Illustrator",
+			"link": "http://www.jessicaxyl.com",
+			"quote": [
+				"Don't stress about not making it when you're in your twenties, especially as a fresh graduate.", "The number of followers you have do not equate to your worth.", "Learn how to price your work."
+			]
+		},
+		"syd-weiler": {
+			"name": "Syd Weiler",
+			"title": "Illustrator",
+			"link": "http://sydweiler.com",
+			"quote": [
+				"Say yes to interesting opportunities, even if they don't fit the 'path' you see for yourself. You'll learn more about yourself by getting out of your comfort zone, and maybe find a new passion!"
+			]
+		},
+		"grant-heinlein": {
+			"name": "Grant Heinlein",
+			"title": "Art Director",
+			"link": "http://vsco.co/grant",
+			"quote": [
+				"Stand up for what you think is right, just because you're new at something doesn't mean you have to sit back. New opinions are always good!"
+			]
+		},
+		"cyrus-henderson": {
+			"name": "Cyrus Henderson",
+			"title": "Designer",
+			"link": "http://cyrushenderson.com",
+			"quote": [
+				"Open up the process to everyone and don't get attached to your work. Share often, figure out why you design.", "When looking for new opportunities figure out whether your motive is growth or to influence people on a larger scale."
+			]
+		},
+		"jason-shen": {
+			"name": "Jason Shen",
+			"title": "Product Manager",
+			"link": "http://www.jasonshen.com",
+			"quote": [
+				"You can only get what you want by giving other people what THEY want. Make moves with urgency, but know that careers are long."
+			]
+		},
+		"matthew-bergman": {
+			"name": "Matthew Bergman",
+			"title": "Photographer",
+			"link": "http://matthewbergman.com",
+			"quote": [
+				"Your peers aren't always your friends. Find people who make you happy especially outside your field."
+			]
+		},
+		"josh-hemsley": {
+			"name": "Josh Hemsley",
+			"title": "Designer",
+			"link": "http://new.joshhemsley.com",
+			"quote": [
+				"People matter — build great relationships with the people you're creating with and creating for."
+			]
+		},
+		"cat-noone": {
+			"name": "Cat Noone",
+			"title": "Designer",
+			"link": "http://heyimcat.com",
+			"quote": [
+				"You're a beginner; keep that mindset even when it's mastered.", "Jump off the cliff, your best lessons are at the bottom.", "Your design is bad, you're not a bad designer (or person).", "Find a mentor and don't be afraid to ask for help.", "Learn the fundamentals of your craft first. You can't paint a house without a frame."
+			]
+		},
+		"melissa-mandelbaum": {
+			"name": "Melissa Mandelbaum",
+			"title": "Design Director",
+			"link": "https://medium.com/@lissalauren",
+			"quote": [
+				"Learn from someone you admire. Read a lot. Make friends. Seek growth opps. Always remember, everything will be OK."
+			]
+		},
+		"smb": {
+			"name": "SMB",
+			"title": "Nanotech Scientist",
+			"link": "https://twitter.com/SMB06",
+			"quote": [
+				"Don't worry about changing goals in life. DO NOT worry about your age when you make the change. Love more passionately."
+			]
+		},
+		"racine-davis": {
+			"name": "Racine Davis",
+			"title": "Designer",
+			"link": "https://dribbble.com/racine",
+			"quote": [
+				"Continue to be tenacious with your goals, THEY don’t have to get it."
+			]
+		},
+		"manik-rathee": {
+			"name": "Manik Rathee ",
+			"title": "Designer",
+			"link": "http://www.manikrathee.com",
+			"quote": [
+				"Create, create, create. Create work at volume.", "Design and redesign until your options run out. That's how you become great.", "Don't be afraid to ask for mentorship. There are a ton of senior level people that would be happy to help guide newcomers."
+			]
+		},
+		"elizabeth-u": {
+			"name": "Elizabeth Ü",
+			"title": "Author",
+			"link": "https://elizabethu.com",
+			"quote": [
+				"Spend time figuring out what YOU want (hint: it's probably different from what THEY want) & then don't by shy: ask for it!", "Think of everything as a grand experiment; dive in wholeheartedly. Whatever the outcome, experiments always reveal good info."
+			]
+		},
+		"robin-andersen": {
+			"name": "Robin Andersen",
+			"title": "UX Designer",
+			"link": "https://twitter.com/tecgirl",
+			"quote": [
+				"If you’re not making mistakes, you’re not trying hard enough."
+			]
+		},
+		"anthony-bosio": {
+			"name": "Anthony Bosio",
+			"title": "Front-End Developer",
+			"link": "http://www.abosio.com",
+			"quote": [
+				"Create more than you consume.", "Be more flexible."
+			]
+		},
+		"jenna-quindica": {
+			"name": "Jenna Quindica",
+			"title": "Software Engineer",
+			"link": "http://jenna.io",
+			"quote": [
+				"If life’s not hard, you’re not challenging yourself."
+			]
+		},
+		"chris-tauziet": {
+			"name": "Chris Tauziet",
+			"title": "Designer",
+			"link": "http://www.tauziet.com",
+			"quote": [
+				"Look at what others are doing and try to understand why and how they ended up there. Try to imitate until you master.", "Don’t rush with your first solution, but instead try to explore what’s possible. Ask for feedback. Ask for advice.", "And don’t hesitate to reach out to people you admire, and seek for advice."
+			]
+		},
+		"sara-menefee": {
+			"name": "Sara Menefee",
+			"title": "Designer",
+			"link": "https://twitter.com/misosoup",
+			"quote": [
+				"Explore broad ideas, don’t think too narrow. What is seemingly bad can give insight to something amazing. "
+			]
+		},
+		"katrina-keller": {
+			"name": "Katrina Keller",
+			"title": "Fabric Artist",
+			"link": "http://travelerskeep.tumblr.com",
+			"quote": [
+				"Don't give up. Don't worry about what other people think, keep creating. People won't say they love your work if they didn't. "
+			]
+		},
+		"cal": {
+			"name": "Cal",
+			"title": "Game Developer",
+			"link": "https://twitter.com/WizkidCoder",
+			"quote": [
+				"Realise that time can be your friend, if a project is going to take years it gives opportunity to define what you're creating "
+			]
+		},
 		"cordelia-mcgee-tubb": {
 			"name": "Cordelia McGee-Tubb",
 			"title": "Developer, Designer, & Cartoonist",
@@ -79,7 +296,7 @@
 			"title": "Designer",
 			"link": "http://www.paultuorto.com",
 			"quote": [
-				"Dafont.com is the devil"
+				"<a href=\"http:\/\/www.dafont.com\">Dafont.com</a> is the devil", "Put the mouse down and do some research", "Work on everything you can, one thing will lead to another."
 			]
 		},
 		"aubrey-johnson": {
@@ -127,7 +344,7 @@
 			"title": "Designer",
 			"link": "https://www.instagram.com/nrrrdcore/",
 			"quote": [
-				"learn to differentiate between criticism and critique, seek feedback early, and don't forget to make teammates feel heard.", "When you disagree with someone's advice or opinion, don't get defensive...ask questions and try to understand their P.O.V. (even if you don't wind up doing it their way) It's good practice in collaboration and (again) making people feel heard.", "Don't worry about making any lists or publicity, get lost in your work and build good relationships instead."
+				"Learn to differentiate between criticism and critique, seek feedback early, and don't forget to make teammates feel heard.", "When you disagree with someone's advice or opinion, don't get defensive… ask questions and try to understand their P.O.V. (even if you don't wind up doing it their way) It's good practice in collaboration and (again) making people feel heard.", "Don't worry about making any lists or publicity, get lost in your work and build good relationships instead."
 			]
 		},
 		"jose": {
@@ -226,7 +443,7 @@
 				"Hug the slog. During long hours working with no end in sight - Just be grateful you showed up. Progress, not perfection. "
 			]
 		},
-		"shahkashani": {
+		"shah-kashani": {
 			"name": "Shah Kashani",
 			"title": "Photographer",
 			"link": "http://www.shahkashani.com",
@@ -499,7 +716,4 @@
 			]
 		},
 	};
-
-	
-	
 //})();
