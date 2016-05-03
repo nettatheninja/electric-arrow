@@ -67,6 +67,13 @@
 			<div id="credit">
 				— <a href="#" target="_blank"></a>, <span></span>
 			</div>
+			<div id ="share">
+				<a class="twitter-share-button"
+					href="https://twitter.com/intent/tweet?"
+					data-size="default"
+					data-text="check out from all of us">
+				</a>
+			</div>
 		</div>
 		<div id="column-right">
 			<ul>
@@ -75,10 +82,6 @@
 		</div>
 	</div>
 	
-
-
-
-
 
 <!-- End Document
 ================================================== -->
@@ -99,6 +102,7 @@
 		author = window.nm.quotes[authors[0]];
 	}
 
+	document.querySelectorAll('.twitter-share-button')[0].setAttribute('data-url', window.location.href);
 	var quotesEl = document.querySelectorAll('#advice')[0];
 	quotesEl.innerHTML = '';
 	for (var i = 0; i < author.quote.length; i++) {
@@ -120,6 +124,30 @@
 	var nextAuthor = authors[(current + authors.length + 1) % authors.length];
 	document.querySelectorAll('#pagination-next a')[0].href = '/' + nextAuthor;
 </script>
+
+
+<!-- TWITTER
+================================================== -->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<!-- End TWITTER
+================================================== -->
+
 
 
 <!-- GA
