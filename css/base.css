@@ -31,7 +31,7 @@ a:hover {
 #container{
 	position: relative;
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1200px;
 	margin: auto;
 	padding: 110px 0;
 }
@@ -88,18 +88,16 @@ p{
 	float: left;
 	width: 15%;
 }
+
 #column-right{
 	float: right;
 	width: 15%;
 }
+
 #column-center{
 	display: inline-block;
 	width: 70%;
 }
-
-#credit a{
-/*	border-bottom: 2px solid rgba(100, 122, 130, .5);
-*/}
 
  #column-left ul li, #column-right ul li {
 	list-style-type: none;
@@ -127,5 +125,9 @@ li{
 
 #pagination-prev a, #pagination-next a, #desc a{
 	border-bottom: none;
+}
 
+#share{
+	position: absolute;
+	bottom: 0;
 }

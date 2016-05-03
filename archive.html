@@ -61,7 +61,6 @@
 			</div>
 			<div id ="archive-items">
 				<ul>
-					<li></li>
 				</ul>
 			</div>
 		</div>
@@ -71,7 +70,7 @@
 	<!-- JS
 	================================================== -->
 	<script type="text/javascript">
-		var archiveListEl = document.querySelectorAll('#archive-items')[0];
+		var archiveListEl = document.querySelectorAll('#archive-items ul')[0];
 		for (var i = 0; i < window.nm.authors.length; i++) {
 			var authorEl = document.createElement('a');
 			authorEl.appendChild(document.createTextNode(window.nm.quotes[window.nm.authors[i]].name));
