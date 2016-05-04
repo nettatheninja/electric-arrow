@@ -30,7 +30,7 @@
   ================================================== -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/pagination.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
 
 	<!-- Favicons
 	================================================== -->
@@ -68,11 +68,19 @@
 				— <a href="#" target="_blank"></a>, <span></span>
 			</div>
 			<div id ="share">
-				<a class="twitter-share-button"
-					href="https://twitter.com/intent/tweet?"
-					data-size="default"
-					data-text="check out from all of us">
-				</a>
+				<a class="twitter-share-button" href="#">
+				<svg version="1.1" id="bird" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				width="22px" height="22px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+				<path d="M250,87.974c-7.358,3.264-15.267,5.469-23.566,6.461c8.471-5.078,14.977-13.119,18.041-22.701
+				c-7.929,4.703-16.71,8.117-26.057,9.957c-7.484-7.975-18.148-12.957-29.95-12.957c-22.66,0-41.033,18.371-41.033,41.031
+				c0,3.216,0.363,6.348,1.062,9.351c-34.102-1.711-64.336-18.047-84.574-42.872c-3.532,6.06-5.556,13.108-5.556,20.628
+				c0,14.236,7.244,26.795,18.254,34.153c-6.726-0.213-13.053-2.059-18.585-5.132c-0.004,0.171-0.004,0.343-0.004,0.516
+				c0,19.88,14.144,36.464,32.915,40.234c-3.443,0.938-7.068,1.439-10.81,1.439c-2.644,0-5.214-0.258-7.72-0.736
+				c5.222,16.301,20.375,28.165,38.33,28.495c-14.043,11.006-31.735,17.565-50.96,17.565c-3.312,0-6.578-0.194-9.788-0.574
+				c18.159,11.643,39.727,18.437,62.899,18.437c75.473,0,116.746-62.524,116.746-116.747c0-1.779-0.04-3.548-0.119-5.309
+				C237.543,103.429,244.499,96.202,250,87.974z"/>
+				</svg>
+				Share on Twitter</a>
 			</div>
 		</div>
 		<div id="column-right">
@@ -85,69 +93,7 @@
 
 <!-- End Document
 ================================================== -->
-
-
-<!-- PAGINATION + NAVIGATION
-================================================== -->
-<script type="text/javascript">
-	keyboardPagination( '#container', {
-		prev: '#pagination-prev',
-		next: '#pagination-next'
-	});
-	var href = window.location.href;
-	var name = href.substr(href.lastIndexOf('/') + 1);
-	var authors = window.nm.authors;
-	var author = window.nm.quotes[name];
-	if (!author || name.length == 0) {
-		author = window.nm.quotes[authors[0]];
-	}
-
-	document.querySelectorAll('.twitter-share-button')[0].setAttribute('data-url', window.location.href);
-	var quotesEl = document.querySelectorAll('#advice')[0];
-	quotesEl.innerHTML = '';
-	for (var i = 0; i < author.quote.length; i++) {
-		var quoteEl = document.createElement('p');
-		quoteEl.innerHTML = author.quote[i];
-		quotesEl.appendChild(quoteEl);
-	};
-
-	var creditLinkEl = document.querySelectorAll('#credit a')[0];
-	creditLinkEl.href = author.link;
-	creditLinkEl.innerText = author.name;
-
-	var creditProfEl = document.querySelectorAll('#credit span')[0];
-	creditProfEl.innerText = author.title;
-
-	var current = name.length ? authors.indexOf(name) : 0;
-	var prevAuthor = authors[(current + authors.length - 1) % authors.length];
-	document.querySelectorAll('#pagination-prev a')[0].href = '/' + prevAuthor;
-	var nextAuthor = authors[(current + authors.length + 1) % authors.length];
-	document.querySelectorAll('#pagination-next a')[0].href = '/' + nextAuthor;
-</script>
-
-
-<!-- TWITTER
-================================================== -->
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
- 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
- 
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-
-<!-- End TWITTER
-================================================== -->
-
+<script type="text/javascript" src="js/app.js"></script>
 
 
 <!-- GA

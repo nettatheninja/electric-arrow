@@ -70,7 +70,6 @@
     .container .offset-by-fifteen               { padding-left: 900px; }
 
 
-
 /* #Tablet (Portrait)
 ================================================== */
 
@@ -97,7 +96,6 @@
         }
     }
         
-
 
 /*  #Mobile (Portrait)
 ================================================== */
@@ -128,26 +126,30 @@
         margin-bottom: 75px;
         display: block;
         }
+
         #desc{
             display: block;
             width: 100%;
             text-align: center;
             margin-bottom: 10px;
         }
+
         #links{
             display: block;
             width: 100%;
             text-align: center;
         }
-        
+
         #links ul li a{
             margin: 0;
         }
+
         #links ul li a.first{
             margin: 0 30px 0 0;
         }
 
     }
+
 
 /* #Mobile (6s+)
 ================================================== */
@@ -159,6 +161,7 @@
             padding: 50px 0;
         }
     }
+
 
 /* #Mobile (320s)
 ================================================== */
