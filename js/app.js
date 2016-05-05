@@ -14,12 +14,12 @@
 
 	document.querySelectorAll('.twitter-share-button')[0].onclick = function(event) {
 		var shareUrl = encodeURIComponent('http://' + window.location.host + '/' + name);
-		var tweetBody = encodeURIComponent('Look at this cool thing by ' + author.name);
+		var tweetBody = encodeURIComponent('Check out this bit of advice by ' + author.name);
 		var width  = 575,
 			height = 400,
 			left   = (window.innerWidth  - width)  / 2,
 			top    = (window.innerHeight - height) / 2,
-			url    = 'https://twitter.com/intent/tweet?text=' + tweetBody + '&url=' + shareUrl + '&via=nettatheninja',
+			url    = 'https://twitter.com/intent/tweet?text=' + tweetBody + '&url=' + shareUrl + '&via=_hindsight',
 			opts   = 
 				'status=1' +
 				',width='  + width  +
