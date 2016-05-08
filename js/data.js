@@ -296,7 +296,7 @@
 			"title": "Designer",
 			"link": "http://www.paultuorto.com",
 			"quote": [
-				"<a href=\"http:\/\/www.dafont.com\">Dafont.com</a> is the devil", "Put the mouse down and do some research", "Work on everything you can, one thing will lead to another."
+				"<a href=\"http:\/\/www.dafont.com\">Dafont.com</a> is the devil.", "Put the mouse down and do some research.", "Work on everything you can, one thing will lead to another."
 			]
 		},
 		"aubrey-johnson": {
