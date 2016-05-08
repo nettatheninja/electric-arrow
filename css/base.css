@@ -68,14 +68,13 @@ ul {
 	margin: 7.5px 0px 7.5px 30px;
 }
 
- #archive-items a {
+ #archive-items a, #credit a,{
 	color: #805da3;
 	position: relative;
 	display: inline-block;
 }
 
-
- #credit a {
+.body-copy a {
 	color: #805da3;
 	position: relative;
 	display: inline-block;
@@ -99,7 +98,7 @@ ul {
 	transform: translateY(10px);
 }
 
-#credit a::after {
+#credit a::after, .body-copy a::after {
 	position: absolute;
 	margin-top: -4px;
 	top: 100%;
@@ -136,7 +135,7 @@ ul {
 }
 
 
-.links a:hover::after, .links a:focus::after, #share a:hover::after, #share a:focus::after, #credit a:hover::after, #credit a:focus::after, #archive-items a:hover::after, #archive-items a:focus::after {
+.links a:hover::after, .links a:focus::after, #share a:hover::after, #share a:focus::after, #credit a:hover::after, #credit a:focus::after, #archive-items a:hover::after, #archive-items a:focus::after, .body-copy a:hover::after, .body-copy a:focus::after  {
 	opacity: 1;
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
