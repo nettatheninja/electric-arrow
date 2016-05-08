@@ -8,10 +8,13 @@ html, body {
 }
 
 @font-face {font-family: "FedraSerifA-Book";src: url(/font/FedraSerifA-Book.otf);}
+@font-face {font-family: "Montserrat-Regular";src: url(/font/Montserrat-Regular.ttf);}
 
 body {
-	font-family: "FedraSerifA-Book";
-	color: #007ba7;
+	background-color: #fff;
+/*	font-family: "Montserrat-Regular";
+*/	font-family: "FedraSerifA-Book";
+	color: #40968D;
 	text-align: left;
 	-webkit-font-smoothing: antialiased;
 	font-weight: normal;
@@ -24,9 +27,9 @@ a, a:visited {
 }
 
 a:hover {
-	color: #007ba7;
-    opacity: .7;
-}
+	color: #40968D;
+/*    opacity: .7;
+*/}
 
 #container {
 	position: relative;
@@ -42,9 +45,7 @@ a:hover {
 }
 
 #desc {
-	font-size: 1em;
 	width: 50%;
-	color: #647A82;
 }
 
 ul {
@@ -53,6 +54,8 @@ ul {
 }
 
 #links {
+	font-family: "Montserrat-Regular";
+	padding-top: 20px;
 	float: right;
 	width: 50%;
 	text-align: right;
@@ -64,6 +67,7 @@ ul {
 }
 
 #links ul li a {
+	color: #40968D;
 	margin-left:30px;
 	font-size: .8em;
 }
@@ -128,13 +132,13 @@ li {
 }
 
 #share {
+	font-family: "Montserrat-Regular";
 	position: absolute;
 	bottom: 0;
-	color: #647a82;
 }
 
-#share a:hover {
-	color: #647a82;
+#share a {
+	color: #40968D;
 }
 
 #bird {
@@ -142,7 +146,7 @@ li {
 }
 
 svg {
-	fill: #647a82;
+	fill: #40968D;
 }
 
 .twitter-share-button {
