@@ -1,7 +1,7 @@
 //(function() {
 	window.nm = {}
 	window.nm.authors = [
-		"franklin-otoole"
+		"franklin-otoole",
 		"kay-t-holt",
 		"samer-farag",
 		"jared-zimmerman",
