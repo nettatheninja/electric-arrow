@@ -101,7 +101,7 @@
 			"title": "Illustrator & Designer",
 			"link": "http://www.meg.is/justkidding",
 			"quote": [
-				"Reach out to your heroes sooner", "Don't be content to stay on your island, get involved in the design community, and make friends who are designers.", "Don't be intimidated by strong opinions, everyone is just making this up as they go.", "You're worth more than you think.", "You can always ask for more money, just give them the chance to say no.", "Take care of yourself first. We're in a made up industry, deadlines are made up too. Everyone can wait.", "Taking care of yourself means mental health just as much as physical health.", "Do not tolerate toxic people.", "It is always okay to let yourself give up on today: you tried your best, all you can do is try again tomorrow."
+				"Reach out to your heroes sooner.", "Don't be content to stay on your island, get involved in the design community, and make friends who are designers.", "Don't be intimidated by strong opinions, everyone is just making this up as they go.", "You're worth more than you think.", "You can always ask for more money, just give them the chance to say no.", "Take care of yourself first. We're in a made up industry, deadlines are made up too. Everyone can wait.", "Taking care of yourself means mental health just as much as physical health.", "Do not tolerate toxic people.", "It is always okay to let yourself give up on today: you tried your best, all you can do is try again tomorrow."
 			]
 		},
 		"kay-t-holt": {
