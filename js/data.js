@@ -1,6 +1,10 @@
 //(function() {
 	window.nm = {}
 	window.nm.authors = [
+		"franklin-otoole"
+		"kay-t-holt",
+		"samer-farag",
+		"jared-zimmerman",
 		"tristen-grant",
 		"alice-yang",
 		"leanna-c",
@@ -83,6 +87,38 @@
 
 	];
 	window.nm.quotes = {
+		"franklin-otoole": {
+			"name": "Franklin O’Toole",
+			"title": "Designer & Illustrator",
+			"link": "https://twitter.com/franklinotoole",
+			"quote": [
+				"Don't corner yourself. Don't say \"This is the only thing I'll do & the only way I want to do it\" Stay open."
+			]
+		},
+		"kay-t-holt": {
+			"name": "Kay T. Holt",
+			"title": "Writer",
+			"link": "http://crossedgenres.com",
+			"quote": [
+				"Don't waste energy trying to make something everyone is okay with. Make enemies. Then feed them to your craft."
+			]
+		},
+		"samer-farag": {
+			"name": "Samer Farag",
+			"title": "Writer & Designer",
+			"link": "http://shoutengine.com/BITQUIPS/",
+			"quote": [
+				"Everyone says that they don't know what they're doing, but there are people that know more than you. Go to them for help."
+			]
+		},
+		"jared-zimmerman": {
+			"name": "Jared Zimmerman",
+			"title": "Designer",
+			"link": "http://www.jaredzimmerman.com/",
+			"quote": [
+				"Being a design leader is about helping your team become leaders, supporting them being self sufficient. A truly successful design leader's advice is no longer needed, rather it is sought out."
+			]
+		},
 		"tristen-grant": {
 			"name": "Tristen Grant",
 			"title": "Illustrator",
