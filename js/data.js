@@ -92,7 +92,7 @@
 			"title": "Designer & Illustrator",
 			"link": "https://twitter.com/franklinotoole",
 			"quote": [
-				"Don't corner yourself. Don't say \"This is the only thing I'll do & the only way I want to do it\" Stay open."
+				"Don't corner yourself. Don't say \"This is the only thing I'll do & the only way I want to do it\". Stay open."
 			]
 		},
 		"kay-t-holt": {
