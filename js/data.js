@@ -2,6 +2,7 @@
 	window.nm = {}
 	window.nm.authors = [
 		"franklin-otoole",
+		"meg-robichaud",
 		"kay-t-holt",
 		"samer-farag",
 		"jared-zimmerman",
@@ -95,6 +96,14 @@
 				"Don't corner yourself. Don't say \"This is the only thing I'll do & the only way I want to do it\". Stay open."
 			]
 		},
+		"meg-robichaud": {
+			"name": "Meg Robichaud",
+			"title": "Illustrator & Designer",
+			"link": "http://www.meg.is/justkidding",
+			"quote": [
+				"Reach out to your heroes sooner", "Don't be content to stay on your island, get involved in the design community, and make friends who are designers.", "Don't be intimidated by strong opinions, everyone is just making this up as they go.", "You're worth more than you think.", "You can always ask for more money, just give them the chance to say no.", "Take care of yourself first. We're in a made up industry, deadlines are made up too. Everyone can wait.", "Taking care of yourself means mental health just as much as physical health.", "Do not tolerate toxic people.", "It is always okay to let yourself give up on today: you tried your best, all you can do is try again tomorrow."
+			]
+		},
 		"kay-t-holt": {
 			"name": "Kay T. Holt",
 			"title": "Writer",
@@ -132,7 +141,7 @@
 			"title": "Illustrator & Designer",
 			"link": "http://alice-yang.com",
 			"quote": [
-				"Take advice from mom with a grain of salt. It may come from a place of love but don't let that stop you from pursuing your passion!", "Personal growth manifests differently between people, stop comparing! Use your past self as a baseline, and keep pushing forward 💪", "Don't wait for inspiration to create. Inspiration is fleeting. Perseverance and consistent practice is how you get better."
+				"Take advice from mom with a grain of salt. It may come from a place of love but don't let that stop you from pursuing your passion!", "Personal growth manifests differently between people, stop comparing! Use your past self as a baseline, and keep pushing forward. 💪", "Don't wait for inspiration to create. Inspiration is fleeting. Perseverance and consistent practice is how you get better."
 			]
 		},
 		"leanna-c": {
