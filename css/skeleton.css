@@ -66,6 +66,8 @@
             width: 85%;
             margin: 0 auto;
             padding: 25px 0;
+            margin-bottom: 100px;
+
         }
         h1, h2, p{
             -webkit-font-smoothing: antialiased;
@@ -131,6 +133,11 @@
         #nav{
             margin-bottom: 100px;
         }
+        #advice {
+            font-size: 1em;
+
+        }
+
     }
 
 
@@ -142,6 +149,7 @@
             width: 85%;
             margin: auto;
             padding: 50px 0;
+            margin-bottom: 100px;
         }
         .links{
             font-size: 1.2em;
@@ -149,6 +157,11 @@
         #nav{
             margin-bottom: 100px;
         }
+        #advice {
+            font-size: 1em;
+
+        }
+
     }
 
 
@@ -160,9 +173,15 @@
             width: 85%;
             margin: auto;
             padding: 50px 0;
+            margin-bottom: 100px;
+
         }
         #nav{
             margin-bottom: 100px;
+        }
+        #advice {
+            font-size: .9em;
+
         }
 
     }
