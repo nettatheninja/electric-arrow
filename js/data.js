@@ -1,6 +1,8 @@
 //(function() {
 	window.nm = {}
 	window.nm.authors = [
+		"david-ehrmann",
+		"mira-steckel",
 		"franklin-otoole",
 		"meg-robichaud",
 		"kay-t-holt",
@@ -81,6 +83,7 @@
 		"justin-severson",
 		"zach-cole",
 		"dustin-senos",
+		"amy-wibowo",
 		"diana-kimball",
 		"ben-myers",
 		"vlad-georgescu",
@@ -88,12 +91,28 @@
 
 	];
 	window.nm.quotes = {
+		"david-ehrmann": {
+			"name": "David Ehrmann",
+			"title": "Software Engineer",
+			"link": "https://github.com/ehrmann",
+			"quote": [
+				"Pursue opportunities based on your strengths, but use those opportunities to strengthen your weaknesses."
+			]
+		},
+		"mira-steckel": {
+			"name": "Mira Steckel",
+			"title": "Designer",
+			"link": "http://www.mirasteckel.com",
+			"quote": [
+				"You are your own worst critic. Try to identify when you're pushing yourself to do better and when you're telling yourself you are done.", "Take chances. Accept opportunities early on, even if it isn't \“perfect\”. The more experience you have, the better you'll know yourself, what you're capable of, and what you want to do next."
+			]
+		},
 		"franklin-otoole": {
 			"name": "Franklin O’Toole",
 			"title": "Designer & Illustrator",
 			"link": "https://twitter.com/franklinotoole",
 			"quote": [
-				"Don't corner yourself. Don't say \"This is the only thing I'll do & the only way I want to do it\". Stay open."
+				"Don't corner yourself. Don't say \“This is the only thing I'll do and the only way I want to do it\”. Stay open."
 			]
 		},
 		"meg-robichaud": {
@@ -485,7 +504,7 @@
 			"title": "Data Geek",
 			"link": "https://twitter.com/artdecotech",
 			"quote": [
-				"Hug the slog. During long hours working with no end in sight - Just be grateful you showed up. Progress, not perfection. "
+				"Hug the slog. During long hours working with no end in sight - Just be grateful you showed up. Progress, not perfection."
 			]
 		},
 		"shah-kashani": {
@@ -522,7 +541,7 @@
 		},
 		"cyd-harrell": {
 			"name": "Cyd Harrell",
-			"title": "Designer",
+			"title": "UX Researcher",
 			"link": "https://twitter.com/cydharrell",
 			"quote": [
 				"That massive anxiety you have about mistakes and getting stuck, let that go. try things. move on judiciously, but do move on.", "People will like you more, throughout your career, the more you are your full self and play to your own strengths."
@@ -629,7 +648,7 @@
 			"title": "Cartoonist",
 			"link": "http://www.wighthousecomic.com/boundbysound/",
 			"quote": [
-				"Block elements out first. The more you do things, the easier it gets. \"Undo\" is not your friend."
+				"Block elements out first. The more you do things, the easier it gets. \“Undo\” is not your friend."
 			]
 		},
 		"sean-kelley": {
@@ -645,7 +664,7 @@
 			"title": "Designer",
 			"link": "http://mattfelten.com",
 			"quote": [
-				"Sell your ideas ruthlessly, but be gracious to criticism. \"They just don't get it\" is your problem, not theirs."
+				"Sell your ideas ruthlessly, but be gracious to criticism. \“They just don't get it\” is your problem, not theirs."
 			]
 		},
 		"andrew-norcross": {
@@ -685,7 +704,7 @@
 			"title": "Designer",
 			"link": "http://maxistentialism.com",
 			"quote": [
-				"Try things over and over again and throw away the bad ones, which is most of them.", "Also, pick your battles carefully, and ask yourself, \"is this the hill I want to die on?\" before you get into a fight."
+				"Try things over and over again and throw away the bad ones, which is most of them.", "Also, pick your battles carefully, and ask yourself, \“is this the hill I want to die on?\” before you get into a fight."
 			]
 		},
 		"rebecca-searles": {
@@ -726,6 +745,14 @@
 			"link": "https://medium.com/@dustin",
 			"quote": [
 				"If I could go back and do this again, I'd force myself to write all. the. time."
+			]
+		},
+		"amy-wibowo": {
+			"name": "Amy Wibowo",
+			"title": "Writer & Engineer",
+			"link": "http://shop.bubblesort.io",
+			"quote": [
+				"I'd tell myself that I learn the most through projects I love and am excited about, so to seek those out!"
 			]
 		},
 		"diana-kimball": {
