@@ -1,6 +1,10 @@
 //(function() {
 	window.nm = {}
 	window.nm.authors = [
+		"kevin-hutchinson",
+		"scott-kirkwood",
+		"milan-vuckovic",
+		"jon-brown",
 		"david-ehrmann",
 		"mira-steckel",
 		"franklin-otoole",
@@ -91,6 +95,38 @@
 
 	];
 	window.nm.quotes = {
+		"kevin-hutchinson": {
+			"name": "Kevin Hutchinson",
+			"title": "Designer",
+			"link": "https://about.me/kevhutch",
+			"quote": [
+				"If you're not scared, you're not learning.", "Make sure each new project scares you a little.", "If your job doesn't scare you anymore, it's time to move on."
+			]
+		},
+		"scott-kirkwood": {
+			"name": "Scott Kirkwood",
+			"title": "Creative Director",
+			"link": "http://www.scottkirkwood.work",
+			"quote": [
+				"Identify the shortcomings in your work and your workplace, because that's where the greatest opportunities lie. But remember to appreciate the strengths in your work and your workplace, because that's the source of happiness.", "Find a few people at your level who you can tell anything, and create your own little band of musketeers--you'll need them on the rough days, and they'll need you too.", "Better to collaborate with a nice, hardworking person with good skills than an asshole with three times the talent; they're never worth it.", "That simple, honest, vulnerable thing you're not sure you should say? Everyone else is thinking the same thing.", "Listen to advice, but don't follow all of it. People offer advice based on their own experience, not yours. But listen to their stories, because all stories are valuable."
+			]
+		},
+		"milan-vuckovic": {
+			"name": "Milan Vuckovic",
+			"title": "Designer",
+			"link": "http://www.milanvuckovic.net",
+			"quote": [
+				"Learn how to code. You're gonna need it so bad.", "Separate yourself from your work. Your design skills might be shit, but you're not a bad person.", "Move out as soon as you can. Like, now.", "Contact the people you look up to. Some of them might be rude, but maybe you caught them on a bad day. Don't give up on this.", "Respect the deadline, but respect your body and health even more."
+			]
+		},
+		"jon-brown": {
+			"name": "Jon Brown",
+			"title": "Video Producer",
+			"link": "http://www.jondalebrown.com",
+			"quote": [
+				"Proactively seek out mentorship. It's not something that is handed to you."
+			]
+		},
 		"david-ehrmann": {
 			"name": "David Ehrmann",
 			"title": "Software Engineer",
