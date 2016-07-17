@@ -1,6 +1,9 @@
 //(function() {
 	window.nm = {}
 	window.nm.authors = [
+		"iain-mcconchie",
+		"taurean-bryant",
+		"stephen-meszaros",
 		"kevin-hutchinson",
 		"scott-kirkwood",
 		"milan-vuckovic",
@@ -95,12 +98,36 @@
 
 	];
 	window.nm.quotes = {
+		"iain-mcconchie": {
+			"name": "Iain McConchie",
+			"title": "Head of Design",
+			"link": "http://www.konch.net",
+			"quote": [
+				"Go deep on that thing that interests you more than anything. But don't ignore the people who can help you go deeper than you might think possible (ie engineers)."
+			]
+		},
+		"taurean-bryant": {
+			"name": "Taurean Bryant",
+			"title": "Designer",
+			"link": "http://t-bryant.com",
+			"quote": [
+				"Start today. Expect that whatever you embark on will take time. Accept that failure is a part of the process. When you stumble, forgive yourself and carry on. Reflect on and reward your successes and failures all the same. Don’t be afraid to ask for help."
+			]
+		},
+		"stephen-meszaros": {
+			"name": "Stephen Meszaros",
+			"title": "Product Designer",
+			"link": "http://stephenmeszaros.com",
+			"quote": [
+				"Have opinions. It is far too easy to blend in with the status quo, yet opinions are what will separate you from the mold."
+			]
+		},
 		"kevin-hutchinson": {
 			"name": "Kevin Hutchinson",
 			"title": "Designer",
 			"link": "https://about.me/kevhutch",
 			"quote": [
-				"If you're not scared, you're not learning.", "Make sure each new project scares you a little.", "If your job doesn't scare you anymore, it's time to move on."
+				"If you're not scared, you're not learning.", "Make sure each new project scares you a little.", "If your job doesn't scare you anymore, it's time to move on.", "Don't be intimidated by the mantle of \"Designer\" or \"Creative.\"", "If you can have an idea and make it real, you're a designer. If you can make something (an object, a composition, a drawing, a phrase) that affects people, you're creative.", "There will always be skills you can sharpen - work with people who are strong in those areas and absorb all you can."
 			]
 		},
 		"scott-kirkwood": {
@@ -108,7 +135,7 @@
 			"title": "Creative Director",
 			"link": "http://www.scottkirkwood.work",
 			"quote": [
-				"Identify the shortcomings in your work and your workplace, because that's where the greatest opportunities lie. But remember to appreciate the strengths in your work and your workplace, because that's the source of happiness.", "Find a few people at your level who you can tell anything, and create your own little band of musketeers--you'll need them on the rough days, and they'll need you too.", "Better to collaborate with a nice, hardworking person with good skills than an asshole with three times the talent; they're never worth it.", "That simple, honest, vulnerable thing you're not sure you should say? Everyone else is thinking the same thing.", "Listen to advice, but don't follow all of it. People offer advice based on their own experience, not yours. But listen to their stories, because all stories are valuable."
+				"Identify the shortcomings in your work and your workplace, because that's where the greatest opportunities lie. But remember to appreciate the strengths in your work and your workplace, because that's the source of happiness.", "Find a few people at your level who you can tell anything, and create your own little band of musketeers — you'll need them on the rough days, and they'll need you too.", "Better to collaborate with a nice, hardworking person with good skills than an asshole with three times the talent; they're never worth it.", "That simple, honest, vulnerable thing you're not sure you should say? Everyone else is thinking the same thing.", "Listen to advice, but don't follow all of it. People offer advice based on their own experience, not yours. But listen to their stories, because all stories are valuable."
 			]
 		},
 		"milan-vuckovic": {
@@ -580,7 +607,7 @@
 			"title": "UX Researcher",
 			"link": "https://twitter.com/cydharrell",
 			"quote": [
-				"That massive anxiety you have about mistakes and getting stuck, let that go. try things. move on judiciously, but do move on.", "People will like you more, throughout your career, the more you are your full self and play to your own strengths."
+				"That massive anxiety you have about mistakes and getting stuck, let that go. Try things. Move on judiciously, but do move on.", "People will like you more, throughout your career, the more you are your full self and play to your own strengths."
 			]
 		},
 		"bruno-bergher": {
