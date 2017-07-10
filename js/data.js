@@ -1,6 +1,8 @@
 //(function() {
 	window.nm = {}
 	window.nm.authors = [
+		"juan-valera",
+		"neil-gajera",
 		"iain-mcconchie",
 		"taurean-bryant",
 		"stephen-meszaros",
@@ -98,6 +100,22 @@
 
 	];
 	window.nm.quotes = {
+		"juan-valera": {
+			"name": "Juan Valera",
+			"title": "Product Designer",
+			"link": "http://www.juanvalera.co",
+			"quote": [
+				"Worry less, create more."
+			]
+		},
+		"neil-gajera": {
+			"name": "Neil Gajera",
+			"title": "Product Manager",
+			"link": "http://www.neilgajera.com",
+			"quote": [
+				"Start thinking about kind of legacy you want to leave behind. Stop procrastinating—set a deadline. Have a confidence to dream big and a conviction to make it happen. Always remind yourself: you got this and you might as well get it."
+			]
+		},
 		"iain-mcconchie": {
 			"name": "Iain McConchie",
 			"title": "Head of Design",
